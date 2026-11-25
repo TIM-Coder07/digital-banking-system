@@ -161,15 +161,6 @@ mongoose, bcryptjs, zod, react-hook-form, @hookform/resolvers, jspdf (PDF receip
 | Customer | Karim Ahmed | karim@bank.test | Customer@1234 | 1234 | Savings + Business account, has a pending business loan |
 | Customer | Nusrat Jahan | nusrat@bank.test | Customer@1234 | not set | Unverified, no accounts (use to test staff KYC flow) |
 
-### Demo Account Numbers
-
-| Owner | Type | Account Number |
-|---|---|---|
-| Rahim Uddin | Savings | XXXXXXXXXXXX |
-| Rahim Uddin | Current | XXXXXXXXXXXX |
-| Karim Ahmed | Savings | XXXXXXXXXXXX |
-| Karim Ahmed | Business | XXXXXXXXXXXX |
-
 ### Suggested Test Flow
 
 1. **Customer (Rahim):** transfer money to Karim's account, download the PDF receipt, submit a deposit request

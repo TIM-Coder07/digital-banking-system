@@ -1,5 +1,5 @@
 - **Live:** https://digital-banking-system.vercel.app
-- **Repo:** https://github.com/YOUR_USERNAME/digital-banking-system
+- **Repo:** https://github.com/TIM-Coder07/digital-banking-system
 
 
 # Digital Banking Management System

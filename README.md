@@ -1,3 +1,7 @@
+- **Live:** https://digital-banking-system.vercel.app
+- **Repo:** https://github.com/YOUR_USERNAME/digital-banking-system
+
+
 # Digital Banking Management System
 
 A simulated digital banking platform built with Next.js App Router, TypeScript, Redux Toolkit, RTK Query, MongoDB and NextAuth. No real money, cards or banking credentials are used.
@@ -149,3 +153,29 @@ npm run dev
 ## Additional Libraries
 
 mongoose, bcryptjs, zod, react-hook-form, @hookform/resolvers, jspdf (PDF receipts), lucide-react (icons), next-themes (dark mode), sonner (toasts), clsx, tailwind-merge.
+
+
+## Demo Credentials
+
+| Role | Name | Email | Password | Transaction PIN | Notes |
+|---|---|---|---|---|---|
+| Admin | Ayesha Rahman | admin@bank.test | Admin@1234 | n/a | Full access: analytics, loan approval, freeze accounts, bank settings |
+| Bank Staff | Tanvir Hossain | staff@bank.test | Staff@1234 | n/a | Register and verify customers, approve requests, forward loans |
+| Customer | Rahim Uddin | rahim@bank.test | Customer@1234 | 1234 | Savings + Current account, has an active personal loan |
+| Customer | Karim Ahmed | karim@bank.test | Customer@1234 | 1234 | Savings + Business account, has a pending business loan |
+| Customer | Nusrat Jahan | nusrat@bank.test | Customer@1234 | not set | Unverified, no accounts (use to test staff KYC flow) |
+
+### Demo Account Numbers
+
+| Owner | Type | Account Number |
+|---|---|---|
+| Rahim Uddin | Savings | XXXXXXXXXXXX |
+| Rahim Uddin | Current | XXXXXXXXXXXX |
+| Karim Ahmed | Savings | XXXXXXXXXXXX |
+| Karim Ahmed | Business | XXXXXXXXXXXX |
+
+### Suggested Test Flow
+
+1. **Customer (Rahim):** transfer money to Karim's account, download the PDF receipt, submit a deposit request
+2. **Staff:** approve Rahim's deposit, verify Nusrat and open her an account, forward Karim's loan
+3. **Admin:** approve Karim's loan (money is disbursed), check the dashboard charts, review flagged transactions

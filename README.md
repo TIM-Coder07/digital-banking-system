@@ -1,13 +1,9 @@
-- **Live:** https://digital-banking-system.vercel.app
-- **Repo:** https://github.com/TIM-Coder07/digital-banking-system
-
-
 # Digital Banking Management System
 
 A simulated digital banking platform built with Next.js App Router, TypeScript, Redux Toolkit, RTK Query, MongoDB and NextAuth. No real money, cards or banking credentials are used.
 
-- **Live:** _add Vercel link_
-- **Repo:** _add GitHub link_
+- **Live:** https://digital-banking-system.vercel.app
+- **Repo:** https://github.com/TIM-Coder07/digital-banking-system
 
 ## Demo Credentials
 
